@@ -1,0 +1,117 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body,
+small,
+#primary-menu ul ul li > a,
+.wp-caption,
+.feature-box.fbox-center.fbox-italic p,
+.skills li .progress-percent .counter,
+.nav-tree ul ul a { font-family: 'Raleway', sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#logo,
+#primary-menu ul li > a,
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a,
+#top-search form input,
+.entry-link,
+.entry.entry-date-section span,
+.button.button-desc,
+.counter,
+label,
+.nav-tree li a,
+.wedding-head .first-name,
+.wedding-head .last-name { font-family: 'Raleway', sans-serif; }
+
+.entry-meta li,
+.entry-link span,
+.entry blockquote p,
+.more-link,
+.comment-content .comment-author span,
+.button.button-desc span,
+.testi-content p,
+.team-title span,
+.before-heading,
+.wedding-head .first-name span,
+.wedding-head .last-name span { font-family: 'Raleway', serif; }
+
+.font-body { font-family: 'Raleway', 'Helvetica', sans-serif !important; }
+
+.font-primary { font-family: 'Raleway', 'Helvetica', sans-serif !important; }
+
+.font-secondary { font-family: 'Raleway', 'Helvetica', serif !important; }
+
+body {
+    font-size: 16px;
+    line-height: 28px;
+    color: #212529;
+}
+
+.heading-block {
+	color: #212529;
+}
+
+.skill-area .skill-info {
+	border-left: 1px solid #444;
+	padding-left: 25px;
+}
+
+.heading-block h2 + span { font-size: 16px; }
+
+h5 {
+	margin: 0;
+}
+
+h4 small, 
+.item-block header small {
+	letter-spacing: inherit;
+	font-size: 85%;
+}
+.item-block header {
+	text-align: left;
+}
+
+@media (max-width: 767px) {
+.item-block header h5 {
+    text-align: left; 
+} }
+
+.table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.container {
+	padding-top: 45px;
+}
+
+.page-section {
+	padding: 40px 0;
+}
+
+.skill-area .skill-info span {
+	font-size: 14px;
+}
+
+.toggle .togglet {
+	font-size: 15px;
+	color: #7e8890;
+}
+
+
+.skill-info span {
+	font-size: 14px;
+}
+
+.toggle .togglec {
+	padding-left: 0;
+}
